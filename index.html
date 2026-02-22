@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinku Naik | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1f2937, #2563eb);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 20px;
+            background: #ddd;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: white;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #1e40af;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #1f2937;
+            font-size: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .skill {
+            background: #2563eb;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            margin: 10px 15px;
+            text-decoration: none;
+            color: white;
+            background: #2563eb;
+            padding: 10px 18px;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .contact-links a:hover {
+            background: #1e40af;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1f2937;
+            color: white;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav {
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+
+            section {
+                padding: 40px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Replace the src below with your actual photo -->
+    <img src="your-photo.jpg" alt="Rinku Naik Photo Placeholder" />
+    <h1>Rinku Naik</h1>
+    <p>Commerce Student | IT Enthusiast | Future Research Analyst</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am Rinku Naik, a commerce student with a strong interest in technology, finance, and IT systems.
+            I am currently learning SQL Server, web development, and intranet system design. I enjoy building
+            practical projects such as student database forms connected to SQL Server and hosted on IIS.
+        </p>
+        <br>
+        <p>
+            My goal is to grow as a Research Analyst and technology-driven professional. I believe in continuous
+            learning, discipline, and applying knowledge through real-world projects. I am currently preparing
+            for professional certifications and competitive examinations while improving my English communication
+            and technical skills.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+        <div class="skills-list">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">SQL Server</div>
+            <div class="skill">SSMS</div>
+            <div class="skill">Python Basics</div>
+            <div class="skill">Intranet Website Design</div>
+            <div class="skill">Database Connectivity</div>
+            <div class="skill">Microsoft IIS</div>
+            <div class="skill">Financial Research Basics</div>
+            <div class="skill">Essay Writing</div>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+        <h3>IT Department Exposure – NTPC Darlipali (Learning Phase)</h3>
+        <p>
+            Gaining practical exposure to IT systems, internal networking, and database environments.
+            Understanding how corporate intranet systems function and how databases are managed in
+            organizational setups.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+        <h3>Student Details Form with SQL Server</h3>
+        <p>
+            Developed a student form (Name, Roll No, Class) connected to SQL Server database
+            and hosted on IIS. Focused on backend connectivity and database storage.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Practice Intranet Website</h3>
+        <p>
+            Designed a multi-page intranet-style website simulating a corporate internal portal
+            with structured navigation and database integration.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Finance & Research Preparation Notes</h3>
+        <p>
+            Preparing structured notes for Research Analyst certification and competitive
+            examinations with focus on analytical writing and updated financial data.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card" style="text-align:center;">
+        <p>Email: your-email@example.com</p>
+        <p>Phone: +91-XXXXXXXXXX</p>
+
+        <div class="contact-links">
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Portfolio</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Rinku Naik. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
